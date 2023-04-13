@@ -37,3 +37,19 @@ Running airflow-init also creates all neccesary directories for Airflow operatio
 Running Airflow on VM requires port forward.
 
 Airflow interface is available on [localhost:8080](http://localhost:8080/home)
+
+
+# How to SSH
+
+gcloud compute os-login ssh-keys add \
+    --key-file='/Users/reneboygarcia/Documents/Capstone Peer Review/DataEngineering/tender-project-master/terraform/GOOGLE_APPLICATION_CREDENTIALS.json' \
+    --project=eu-pub-tender-de-2023 \
+    --ttl=15d
+    
+# How to get external IP
+
+`curl ifconfig.me`
+
+# Port Forward
+gcloud compute firewall-rules create airflow-web-ui --allow tcp:8080
+
