@@ -33,7 +33,7 @@ BUCKET_NAME = "dl-eu-pub-tender-de-2023"
 CLUSTER_NAME = "spark-temp-cluster"
 REGION = "europe-west6"
 PROJECT_ID = "eu-pub-tender-de-2023"
-PYSPARK_URI = "gs://dl-eu-pub-tender/code/spark_to_bq.py"
+PYSPARK_URI = "gs://dl-eu-pub-tender-2023/code/spark_to_bq.py"
 
 CLUSTER_CONFIG = {
     "master_config": {
