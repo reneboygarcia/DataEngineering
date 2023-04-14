@@ -27,7 +27,7 @@ AIRFLOW_HOME = os.environ.get("AIRFLOW_HOME", "/opt/airflow/")
 COUNTRY_LIST_URL = "https://www.eea.europa.eu/data-and-maps/data/waterbase-lakes-4/country-codes-and-abbreviations-32-records/country-codes-and-abbreviations-32-records/at_download/file"
 
 # Google cloud variables
-BUCKET_NAME = "dl-eu-pub-tender"
+BUCKET_NAME = "dl-eu-pub-tender-de-2023"
 
 # Google Dataproc variables
 CLUSTER_NAME = "spark-temp-cluster"
